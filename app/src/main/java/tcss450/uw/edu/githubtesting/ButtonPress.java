@@ -31,7 +31,7 @@ public class ButtonPress extends AppCompatActivity {
         Intent intent = getIntent();
         TextView textView = new TextView(this);
         textView.setTextSize(40);
-        textView.setText("We are the ZOMBIE TURTLES");
+        textView.setText("We are the ZOMBIE TURTLES. Zombie turles are super scary!!!");
         RelativeLayout layout = (RelativeLayout) findViewById(R.id.message);
         layout.addView(textView);
     }
